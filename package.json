@@ -1,0 +1,33 @@
+{
+  "name": "mylaundry",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "postinstall": "patch-package"
+  },
+  "dependencies": {
+    "@awrminkhodaei/react-native-horizontal-datepicker": "^0.1.6",
+    "@react-navigation/native": "^7.0.14",
+    "@react-navigation/native-stack": "^7.2.0",
+    "@reduxjs/toolkit": "^2.5.0",
+    "deprecated-react-native-prop-types": "^5.0.0",
+    "expo": "~52.0.27",
+    "expo-location": "~18.0.5",
+    "expo-status-bar": "~2.0.1",
+    "firebase": "^11.2.0",
+    "moment-jalaali": "^0.10.4",
+    "patch-package": "^8.0.0",
+    "react": "18.3.1",
+    "react-native": "0.76.6",
+    "react-native-image-slider-box": "^2.0.7",
+    "react-redux": "^9.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  },
+  "private": true
+}
